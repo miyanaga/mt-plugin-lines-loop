@@ -1,0 +1,13 @@
+id: LinesLoop
+name: LinesLoop
+version: 0.1.0
+l10n_class: MT::LinesLoop::L10N
+description: <__trans phrase="Split text to multilines and loop them.">
+
+tags:
+    block:
+        LinesLoop: $LinesLoop::MT::LinesLoop::Tags::hdlr_LinesLoop
+        LinesLoopHeader?: $LinesLoop::MT::LinesLoop::Tags::hdlr_LinesLoopHeader
+        LinesLoopFooter?: $LinesLoop::MT::LinesLoop::Tags::hdlr_LinesLoopFooter
+    function:
+        LinesLoopLine: $LinesLoop::MT::LinesLoop::Tags::hdlr_LinesLoopLine
